@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  width:100%;
+  padding:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+ h1 {
+  font-family: 'Lora', serif;
+  font-size: 60px;
+  text-align: center;
+ }
+ p{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+ }
+ .logo {
+  max-width:300px;
+  text-align: center;
+ }
+ img {
+   width:100%;
+ }

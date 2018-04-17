@@ -1,0 +1,17 @@
+{
+  "name": "hastingsspirits",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "git subtree split --prefix build -b gh-pages; git push -f origin gh-pages:gh-pages; git branch -D gh-pages;"
+  }
+}
